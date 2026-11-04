@@ -43,6 +43,11 @@
     <name>NamedCredential</name>
   </types>
   <types>
+    <!-- RemoteSiteSettings are org-specific and must never be overwritten -->
+    <members>Helios_Warehouse</members>
+    <name>RemoteSiteSettings</name>
+  </types>
+  <types>
     <!-- Reports are maintained directly in production -->
     <members>*</members>
     <name>Report</name>
