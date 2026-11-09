@@ -274,3 +274,4 @@ useSmartDeploymentTests: false
 allowedPromotionSteps:
   - source: uat
     target: preprod
+monitoringRepository: https://github.com/Sakthes/sfdx-hardis-training-monitoring
